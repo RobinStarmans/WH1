@@ -1,0 +1,272 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    scroll-behavior: smooth;
+}
+
+.menu {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+}
+
+.foto {
+    width: 100%;
+    height: 600px;
+    background-color: hotpink;
+}
+
+.foto-2-artikel {
+    width: 100%;
+    height: 600px;
+    background-color: hotpink;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.een {
+    width: 45%;
+    height: 600px;
+    float: left;
+}
+
+.twee {
+    width: 55%;
+    height: 600px;
+    float: right;
+}
+
+.links {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.rechts {
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+.footer {
+    height: 80px;
+    width: 1100px;
+    margin: auto;
+    margin-top: -80px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-info{
+    height: 50px;
+    width: 100%;
+}
+
+.copyright{
+    height: 50px;
+    width: 500px;
+    float: left;
+}
+
+.up-button{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+.balk{
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    font-family: montserrat;
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:25px;
+    color: black;
+    text-shadow: 1px 1px 0.5px  #f089ae;
+
+    /* -webkit-text-stroke: 0.25px darkgrey; */
+    text-decoration: none;
+}
+.nav li:hover {
+    color: #f089ae;
+    padding-bottom: 8px;
+    border-bottom: 10px solid #f089ae;
+}
+
+.header {
+    height: 800px;
+    width: 100%;
+    background-image: url(../img/header.jpg);
+    background-size: 100% 800px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: montserrat;
+    font-weight: bold;
+    padding-top: 350px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: medium;
+    padding-top: 5px;
+    color: white;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: montserrat;
+    line-height: 40px;
+    color: #f089ae;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: montserrat;
+    line-height: 45px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 40px;
+    font-family: montserrat;
+    line-height: 55px;
+    color: #f089ae;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.voorwoord{
+    background-color: black;
+    width: 100%;
+}
+
+.voorwoord-text {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.proloog {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.video {
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: hotpink;
+}
+
+span {
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 50px;
+    font-family: montserrat;
+    line-height: 65px;
+    color: black;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 40px;
+    font-family: montserrat;
+    line-height: 55px;
+    color: #f089ae;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 35px;
+    color: black;
+    font-family: montserrat;
+}
+
+.artikel-brood{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.quote {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.titel-artikel{
+    padding-top: 450px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.foto-artikel{
+    width: 1100px;
+    height: 600px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 111px;
+}
+
+.motion{
+    width: 1100px;
+    height: 600px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 111px;
+}
+
+.artikelen {
+    width: 1100px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.koop-nu {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
+.artikelen-een{
+    width: 100%;
+    height: 300px;
+    background-color: tomato;
+    margin-bottom: 20px;
+}
